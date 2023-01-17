@@ -1,0 +1,32 @@
+.container-img {
+    max-width: 25rem;
+    height: 18.6rem;
+  }
+
+
+  .container-img img {
+    max-width: 25rem;
+    height: 18.6rem;
+  }
+
+  .container-color, .bg-color {
+    background: #DF9841;
+  }
+
+
+  .style-card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px !important;
+  }
+
+  .style-diretora {
+    max-width: 35rem;
+    margin-top: -320px;
+    mix-blend-mode: multiply;
+    display: block;
+  }
+
+  
+  /* width: 85%; 
+  height: 90%;
+  bottom: -1.8rem; 
+  right: -0.5rem;  */
