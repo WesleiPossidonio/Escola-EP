@@ -148,9 +148,17 @@ body {
     width: 35rem !important;
     margin-left: 4rem;
   }
+
+  .logo-style {
+    width: 6rem !important;
+  }
 }
 
 @media (max-width: 768px) {
+  .bg-img-2 {
+    background-image: url("../img-escolaEP/banner-m.jpg") !important;
+    background-repeat: no-repeat;
+  }
   .container-img {
     max-width: 20rem;
     height: 15.6rem;
@@ -188,5 +196,9 @@ body {
     max-width: 18rem;
     height: 13.6rem;
   }
+
+  .style-diretora {
+    max-width: 18rem;
+}
 
 }
