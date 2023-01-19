@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
+
+  <title>Escola EP</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
-  <meta name="keywords"
-    content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
-  <meta name="author" content="elemis">
-  <title>Escola EP</title>
-  <link rel="shortcut icon" href="./assets/img/favicon.png">
+
+  <!-- font-google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- redes-sociais -->
+  <meta property="og:url" content="http://www.escolaep.com.br/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Escola EP">
+  <meta property="og:image" content="http://www.escolaep.com.br/img/facebook.jpg">
+  <meta property="og:description" content="Escola de Ensino Fundamental e Médio de Barra de São João - RJ">
+  <meta property="og:site_name" content="Escola EP">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/img-escolaEP/favicon.png">
+
+  <!-- link css -->
   <link rel="stylesheet" href="./assets/css/plugins.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/new-style.css">
@@ -35,35 +49,41 @@
             </div>
             <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link nav-style" href="/index.html">HOME</a></li>
 
-                <li class="nav-item dropdown"><a class="nav-link" href="#" ata-bs-toggle="dropdown">ESCOLA</a>
+                <li class="nav-item dropdown"><a class="nav-link nav-style" href="#" ata-bs-toggle="dropdown">ESCOLA</a>
                   <ul class="dropdown-menu">
-                    <li class="nav-item"><a class="dropdown-item" href="/aescola.html">A ESCOLA</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="/eventos.html">EVENTOS</a></li>
-                    <li class="nav-item"><a class="dropdown-item" href="/equipe.html">EQUIPE</a></li>
+                    <li class="nav-item"><a class="dropdown-item nav-style" href="/aescola.html">A ESCOLA</a></li>
+                    <li class="nav-item"><a class="dropdown-item nav-style" href="/eventos.html">EVENTOS</a></li>
+                    <li class="nav-item"><a class="dropdown-item nav-style" href="/equipe.html">EQUIPE</a></li>
                   </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="/calendario.html">CALENDÁRIO PEDAGÓGICO</a></li>
+                <li class="nav-item"><a class="nav-link nav-style" href="/calendario.html">CALENDÁRIO PEDAGÓGICO</a>
+                </li>
 
-                <li class="nav-item dropdown"><a class="nav-link" href="#" data-bs-toggle="dropdown">ACESSO AO PORTAL</a>
+                <li class="nav-item dropdown"><a class="nav-link nav-style" href="#" data-bs-toggle="dropdown">ACESSO AO
+                    PORTAL</a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a class="dropdown-item" href="http://ep.alunosbook.com.br/SignIn.aspx?Return=http%3a%2f%2fep8.alunosbook.com.br%2fSignIn.aspx&Passport={1326-1275-1378-1891-1431-1540-1540-1953-1770-1770-1891-2016}" target="_blank">
-                        ALUNOSBOOK <br> <span class="fs-13">COMUNICADOS GERAIS <br> (ENS. FUNDAMENTAL E MÉDIO) <br> ATIVIDADES FUND. I</span> 
+                      <a class="dropdown-item nav-style"
+                        href="http://ep.alunosbook.com.br/SignIn.aspx?Return=http%3a%2f%2fep8.alunosbook.com.br%2fSignIn.aspx&Passport={1326-1275-1378-1891-1431-1540-1540-1953-1770-1770-1891-2016}"
+                        target="_blank">
+                        ALUNOSBOOK <br> <span class="fs-13">COMUNICADOS GERAIS <br> (ENS. FUNDAMENTAL E MÉDIO) <br>
+                          ATIVIDADES FUND. I</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="dropdown-item" href="https://login.plurall.net/" target="_blank">
-                        ALUNOSBOOK <br> <span class="fs-13">COMUNICADOS GERAIS <br> (ENS. FUNDAMENTAL E MÉDIO) ATIVIDADES FUND.
-                        <br> I PLURALL MAESTRO ATIVIDADES FUND. II E  MÉDIO</span> 
+                      <a class="dropdown-item nav-style" href="https://login.plurall.net/" target="_blank">
+                        ALUNOSBOOK <br> <span class="fs-13">COMUNICADOS GERAIS <br> (ENS. FUNDAMENTAL E MÉDIO)
+                          ATIVIDADES FUND.
+                          <br> I PLURALL MAESTRO ATIVIDADES FUND. II E MÉDIO</span>
                       </a>
                     </li>
                   </ul>
                 </li>
 
-                <li class="nav-item"><a class="nav-link" href="/contato.html">CONTATO</a></li>
+                <li class="nav-item"><a class="nav-link nav-style" href="/contato.html">CONTATO</a></li>
               </ul>
 
               <div class="d-lg-none mt-auto pt-6 pb-6 order-4">
@@ -100,7 +120,8 @@
         data-nav="true" data-dots="true" data-items="1">
         <div class="swiper">
           <div class="swiper-wrapper">
-            <img class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image" data-image-src="./assets/img-escolaEP/banner-conectando.jpg"  style="width: 100%;" />
+            <img class="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
+              data-image-src="./assets/img-escolaEP/banner-conectando.jpg" style="width: 100%;" />
           </div>
         </div>
       </div>
@@ -109,23 +130,25 @@
     <section class="wrapper">
       <div class="container py-15">
         <div class="row gx-xl-12 gy-10 mb-5 align-items-center container-style">
-          <div class="col-md-12 col-lg-6 text-center text-lg-start" data-cues="slideInDown"
-            data-group="page-title" data-delay="600">
+          <div class="col-md-12 col-lg-6 text-center text-lg-start" data-cues="slideInDown" data-group="page-title"
+            data-duration="1000">
             <h1 class="display-3 mb-5 mx-md-n5 mx-lg-0 title-color">UMA HISTÓRIA DE <br> <span
                 class="underline-3 style-2 yellow pb-1">DEDICAÇÃO E RESPEITO!</span> </h1>
             <p class="lead fs-17 mb-7">
-              Ao longo desses <strong class="underline yellow">últimos 26 anos</strong> , a Escola EP percorreu uma trajetória que é
+              Ao longo desses <strong class="underline yellow">últimos 26 anos</strong> , a Escola EP percorreu uma
+              trajetória que é
               exemplo de dedicação e respeito pela oferta de uma educação de qualidade. A nossa proposta pedagógica é um
               ponto forte nesse contexto de sucesso, uma vez que concilia a aprendizagem em seu caráter mais lúdico e a
               sistematização do currículo estabelecido pela Base Nacional Comum Curricular (BNCC).
             </p>
-            <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown"
-              data-group="page-title-buttons" data-delay="900">
+            <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="600">
               <span><a class="btn btn-yellow rounded">Saiba Mais!</a></span>
             </div>
           </div>
 
-          <div class="col-md-12 col-lg-6 container-img container-color rounded ms-lg-9 ps-6 pt-6 mt-lg-15 mt-10 order-md-2" data-cue="slideInRight" data-duration="1500">
+          <div
+            class="col-md-12 col-lg-6 container-img container-color rounded ms-lg-9 ps-6 pt-6 mt-lg-15 mt-10 order-md-2"
+            data-cue="slideInRight" data-duration="1000">
             <img class="rounded mb-0" src="./assets/img-escolaEP/img-escola1.jpg" />
           </div>
 
@@ -138,45 +161,41 @@
       <div class="container">
         <div class="row gx-md-5 gy-5 pb-12 pt-10">
 
-          <h3 class="display-4 text-center mb-7 underline-3 style-2 title pb-1 mb-10 title-color">RESULTADOS E GABARITOS 2023</h3>
+          <h3 class="display-4 text-center mb-7 underline-3 style-2 title pb-1 mb-10 title-color">RESULTADOS E GABARITOS
+            2023</h3>
 
-          <div class="col-md-6 col-xl-4">
+          <div class="col-md-6 col-xl-4" data-cue="slideInLeft" data-duration="1000">
             <div class="card shadow-lg style-card">
               <div class="card-body d-flex flex-column align-items-center">
-                <img src="./assets/img/icons/lineal/browser.svg"
+                <img src="./assets/img-escolaEP/icons/gabarito.png"
                   class="svg-inject icon-svg icon-svg-md text-yellow mb-3" alt="" />
-                <h4>Content Marketing</h4>
-                <p class="mb-2 text-center">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget
-                  metus cras justo.</p>
-                <a href="#" class="more hover link-yellow">Learn More</a>
+                <h4 class="title-color" id="title">GABARITO</h4>
+                <p class="mb-2 text-center">6º Ano ao 8º Ano</p>
+                <button class="button-style"><a href="#">Acessar</a></button>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-xl-4">
+          <div class="col-md-6 col-xl-4" data-cue="slideInDown" data-duration="1000">
             <div class="card shadow-lg style-card">
               <div class="card-body d-flex flex-column align-items-center">
-                <img src="./assets/img/icons/lineal/chat-2.svg" class="svg-inject icon-svg icon-svg-md text-green mb-3"
+                <img src="./assets/img-escolaEP/icons/resultado.png" class="svg-inject icon-svg icon-svg-md text-green mb-3"
                   alt="" />
-                <h4>Social Engagement</h4>
-                <p class="mb-2 text-center">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget
-                  metus cras justo.</p>
-                <a href="#" class="more hover link-green">Learn More</a>
+                <h4 class="title-color">RESULTADOS</h4>
+                <p class="mb-2 text-center">Todos os seguimentos</p>
+                <button class="button-style"><a href="#">Acessar</a></button>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-xl-4">
+          <div class="col-md-6 col-xl-4" data-cue="slideInRight" data-duration="1000">
             <div class="card shadow-lg style-card">
               <div class="card-body d-flex flex-column align-items-center">
-                <img src="./assets/img/icons/lineal/id-card.svg"
+                <img src="./assets/img-escolaEP/icons/gabarito.png"
                   class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
-                <h4>Identity & Branding</h4>
-                <p class="mb-2 text-center">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget
-                  metus cras justo.</p>
-                <a href="#" class="more hover link-orange">Learn More</a>
+                <h4 class="title-color">GABARITO</h4>
+                <p class="mb-2 text-center">9º Ano e Ensino Médio</p>
+                <button class="button-style"><a href="#">Acessar</a></button>
               </div>
             </div>
           </div>
@@ -189,18 +208,21 @@
       <div class="container py-15">
         <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
 
-          <div class="col-12 col-lg-6 position-relative order-lg-2">
-            <figure class="rounded shadow img-mask mask-1">
+          <div class="col-12 col-lg-6 position-relative order-lg-2" data-cue="slideInRight" data-duration="1500" >
+            <figure class="rounded img-mask mask-1">
               <img src="./assets/img-escolaEP/img-pre1.webp" class="img-section">
             </figure>
           </div>
 
-          <div class="col-12 col-lg-6">
-            <h3 class="display-3 mb-5 title-color"><span class="underline-3 style-2 yellow">PRÉ-ESCOLAR </span> <br> ENSINO
+          <div class="col-12 col-lg-6" data-cue="slideInLeft" data-duration="1500" >
+            <h3 class="display-3 mb-5 title-color"><span class="underline-3 style-2 yellow">PRÉ-ESCOLAR </span> <br>
+              ENSINO
               FUNDAMENTAL 1º AO 5º</h3>
             <p class="fs-18 mb-8">
-              A EP oferece diversas atividades para o <strong class="underline yellow">Pré-Escolar (Pré I e Pré II)</strong> e para os anos
-              iniciais do <strong class="underline yellow">Ensino Fundamental, 1° ao 5°</strong> , pautando no desenvolvimento e expressões nos
+              A EP oferece diversas atividades para o <strong class="underline yellow">Pré-Escolar (Pré I e Pré
+                II)</strong> e para os anos
+              iniciais do <strong class="underline yellow">Ensino Fundamental, 1° ao 5°</strong> , pautando no
+              desenvolvimento e expressões nos
               processos de alfabetização e letramento as quais são:
             </p>
 
@@ -208,8 +230,8 @@
               <div class="col-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/natacao.svg"
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-fuchsia me-4" />
+                    <img src="./assets/img-escolaEP/icons/natacao.png"
+                      class="svg-inject style-icons icon-svg-xs solid-mono text-fuchsia me-4" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Natação/Recreação</h4>
@@ -221,8 +243,8 @@
               <div class="col-sm-12 col-md-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/livros.svg"
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-violet me-4" alt="" />
+                    <img src="./assets/img-escolaEP/icons/livros.png"
+                      class="svg-inject style-icons icon-svg-xs solid-mono text-violet me-4" alt="" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Inglês</h4>
@@ -234,8 +256,8 @@
               <div class="col-sm-12 col-md-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/arte.svg "
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-orange me-4" alt="" />
+                    <img src="./assets/img-escolaEP/icons/arte.png "
+                      class="svg-inject style-icons icon-svg-xs solid-mono text-orange me-4" alt="" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Arte</h4>
@@ -246,8 +268,8 @@
               <div class="col-sm-12 col-md-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/musica.svg"
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-green me-4" alt="" />
+                    <img src="./assets/img-escolaEP/icons/musica.png"
+                      class="svg-inject style-icons icon-svg-xs solid-mono text-green me-4" alt="" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Leitura e Música</h4>
@@ -262,12 +284,12 @@
         </div>
     </section>
 
-    <section class="wrapper image-wrapper bg-color text-center">
-      <div class="container py-10">
-        <div class="row">
+    <section class="wrapper image-wrapper bg-color text-center" >
+      <div class="container py-13">
+        <div class="row" >
           <div class="col-lg-6 col-xl-5 mx-auto">
             <h2 class="display-1 mb-3 text-center text-white">MATRÍCULAS <br> ABERTAS</h2>
-            <a href="#" class="btn btn-outline-primary">Join Us</a>
+            <button class="btn-style"><a href="#">Acesse Agora!</a></button>
           </div>
         </div>
       </div>
@@ -277,19 +299,22 @@
       <div class="container py-17">
         <div class="row gx-lg-8 gy-10 align-items-center">
 
-          <div class="col-12 col-lg-6 position-relative">
-            <figure class="rounded shadow img-mask mask-2">
+          <div class="col-12 col-lg-6 position-relative" data-cue="slideInLeft" data-duration="1000">
+            <figure class="rounded img-mask mask-2">
               <img src="./assets/img-escolaEP/ensino-fundamental.webp" class="img-section">
             </figure>
           </div>
 
-          <div class="col-12 col-lg-6">
-            <h3 class="display-3 mb-5 title-color"><span class="underline-3 style-2 yellow">ENSINO <br> FUNDAMENTAL </span> 6° ao 9°
+          <div class="col-12 col-lg-6" data-cues="slideInDown" data-duration="1200">
+            <h3 class="display-3 mb-5 title-color"><span class="underline-3 style-2 yellow">ENSINO <br> FUNDAMENTAL
+              </span> 6° ao 9°
             </h3>
             <p class="fs-18 mb-8">
-              Os objetivos educacionais para os anos finais do <strong class="underline yellow">Ensino Fundamental, 6° ao 9°</strong>, estão
-              direcionados para o desenvolvimento da aprendizagem, tendo em vista a <span class="underline yellow">aquisição de conhecimentos, habilidades e a
-                formação de atitudes</span>  e valores pertinentes ao processo dinâmico da sociedade e da cultura.
+              Os objetivos educacionais para os anos finais do <strong class="underline yellow">Ensino Fundamental, 6°
+                ao 9°</strong>, estão
+              direcionados para o desenvolvimento da aprendizagem, tendo em vista a <span
+                class="underline yellow">aquisição de conhecimentos, habilidades e a
+                formação de atitudes</span> e valores pertinentes ao processo dinâmico da sociedade e da cultura.
             </p>
           </div>
 
@@ -301,8 +326,7 @@
       <div class="container pt-18 pb-16" style="z-index: 5; position:relative">
         <div class="row gx-0 gy-12 align-items-center">
 
-          <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start"
-            data-cues="slideInDown" data-group="page-title" data-delay="600">
+          <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start">
             <h1 class="display-2 mb-5 text-white">
               <span class="underline-3 style-2 white pb-1">Estrutura Física</span>
             </h1>
@@ -331,8 +355,10 @@
                   <div class="swiper-slide"><img src="./assets/img-escolaEP/img-estrutura7.jpg" class="rounded" /></div>
                   <div class="swiper-slide"><img src="./assets/img-escolaEP/img-estrutura8.jpg" class="rounded" /></div>
                   <div class="swiper-slide"><img src="./assets/img-escolaEP/img-estrutura9.jpg" class="rounded" /></div>
-                  <div class="swiper-slide"><img src="./assets/img-escolaEP/img-estrutura10.jpg" class="rounded" /></div>
-                  <div class="swiper-slide"><img src="./assets/img-escolaEP/img-estrutura11.jpg" class="rounded" /></div>
+                  <div class="swiper-slide"><img src="./assets/img-escolaEP/img-estrutura10.jpg" class="rounded" />
+                  </div>
+                  <div class="swiper-slide"><img src="./assets/img-escolaEP/img-estrutura11.jpg" class="rounded" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -343,20 +369,22 @@
 
     <section class="wrapper bg-light">
       <div class="container py-17">
-        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-md-20">
 
-          <div class="col-12 col-lg-6 position-relative order-lg-2">
-            <figure class="rounded shadow img-mask mask-1">
+          <div class="col-12 col-lg-6 position-relative order-lg-2" data-cue="slideInRight" data-duration="1000">
+            <figure class="rounded img-mask mask-1">
               <img src="./assets/img-escolaEP/img-pre1.webp" class="img-section">
             </figure>
           </div>
 
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6" data-cue="slideInLeft" data-duration="1000">
             <h3 class="display-3 mb-5 title-color"><span class="underline-3 style-2 yellow">NOVO <br> ENSINO MÉDIO</h3>
             <p class="fs-18 mb-8">
               Novo Ensino Médio, em consonância com a legislação educacional, já é uma realidade na EP desde 2021, de
-              modo a promover uma aprendizagem mais significativa, por meio do <span class="underline yellow">incentivo ao protagonismo, à autonomia e
-                à responsabilidade</span> dos estudantes em seus projetos de Formativos estruturados pedagogicamente em quatro
+              modo a promover uma aprendizagem mais significativa, por meio do <span class="underline yellow">incentivo
+                ao protagonismo, à autonomia e
+                à responsabilidade</span> dos estudantes em seus projetos de Formativos estruturados pedagogicamente em
+              quatro
               eixos:
             </p>
 
@@ -364,8 +392,8 @@
               <div class="col-sm-12 col-md-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/ciencia.svg"
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-fuchsia me-4" alt="" />
+                    <img src="./assets/img-escolaEP/icons/ciencia.png"
+                      class="svg-inject style-icons icon-svg-xs solid-mono text-fuchsia me-4" alt="" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Investigação Científica</h4>
@@ -377,8 +405,8 @@
               <div class="col-sm-12 col-md-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/ideia.svg"
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-violet me-4" alt="" />
+                    <img src="./assets/img-escolaEP/icons/ideia.png"
+                      class="svg-inject style-icons icon-svg-xs solid-mono text-violet me-4" alt="" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Processos Criativos</h4>
@@ -390,8 +418,8 @@
               <div class="col-sm-12 col-md-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/meditação.svg"
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-orange me-4" alt="" />
+                    <img src="./assets/img-escolaEP/icons/meditação.png"
+                      class="svg-inject style-icons icon-svg-xs solid-mono text-orange me-4" alt="" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Mediação e Intervenção Sociocultural</h4>
@@ -402,8 +430,8 @@
               <div class="col-sm-12 col-md-6">
                 <div class="d-flex flex-row">
                   <div>
-                    <img src="./assets/img-escolaEP/icons/empreendorismo.svg"
-                      class="svg-inject icon-svg icon-svg-xs solid-mono text-green me-4" alt="" />
+                    <img src="./assets/img-escolaEP/icons/Empreendedorismo.png"
+                      class="svg-inject icon-svg-xs solid-mono  me-4 style-icons" alt="" />
                   </div>
                   <div>
                     <h4 class="mb-1 title-color">Empreendedorismo</h4>
@@ -420,20 +448,20 @@
 
     <section class="wrapper bg-light mt-15">
       <div class="container pb-14 py-md-16">
-        <div class="row px-2 px-md-0">
+        <div class="row px-2 px-md-0 row-style">
 
-          <div class="card bg-color py-12 pb-0 text-white rounded-10">
+          <div class="card bg-color py-15 pb-0 text-white rounded-10">
             <div class="row">
-              <div class="col-12 col-lg-6 order-2 order-md-1">
-                <img src="assets/img-escolaEP/diretora-img.png" class="style-diretora mx-auto d-block float-md-end">
+
+              <div class="col-12 col-md-6 offset-md-4 offset-lg-0">
+                <img src="assets/img-escolaEP/diretora-img.png" class="style-diretora mx-auto d-block float-md-end mb-5 mb-lg-0">
               </div>
-              <div class="col-12 col-lg-6 order-1 order-md-2 text-center align-self-center px-4">
-                <p class="t5">
+              <div class="col-12 col-lg-6 text-center align-self-center px-4 mb-15 mb-lg-0">
+                <p class="fs-21">
                   “A educação é a capacidade de ouvir quase qualquer coisa sem perder o seu temperamento ou a sua
                   auto-estima”
                 </p>
-                 <h5 class="mb-0 text-white">Rodrigo Ostmann</h5>
-                <spam class="text-white t6">Diretora Geral</spam>
+                <h2 class="text-white t6">Diretora Geral</h2>
               </div>
 
             </div>
@@ -488,7 +516,8 @@
         <div class="col-md-4 col-lg-2">
           <div class="widget">
             <h4 class="widget-title mb-3 text-white">Endereço</h4>
-            <address><a href="https://goo.gl/maps/2vd14bM6sQ8bRwMA6" target="_blank">Rua Ana Cardoso de Castro, nº 204 - Barra de São João | RJ</a></address>
+            <address><a href="https://goo.gl/maps/2vd14bM6sQ8bRwMA6" target="_blank">Rua Ana Cardoso de Castro, nº 204 -
+                Barra de São João | RJ</a></address>
             <a href="mailto:first.last@email.com">info@email.com</a><br /> 00 (123) 456 78 90
           </div>
 
@@ -504,6 +533,7 @@
   </div>
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/theme.js"></script>
+  <script src="./assets/js/event-card.js"></script>
 </body>
 
 </html>
