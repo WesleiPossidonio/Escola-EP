@@ -156,6 +156,7 @@ body {
 
 @media (max-width: 768px) {
   .bg-img-2 {
+    width: 100% !important;
     background-image: url("../img-escolaEP/banner-m.jpg") !important;
     background-repeat: no-repeat;
   }
@@ -181,6 +182,10 @@ body {
 
   .row-style {
     margin-top: 15rem;
+  }
+
+  .underline {
+    white-space:normal;
   }
 }
 
