@@ -3,13 +3,12 @@ body {
   font-family: 'Open Sans', sans-serif !important;
 }
 
-
-.nav-style {
-  color: #32335A !important;
+.nav-style{
+  color: #32335A;
   font-weight: 700;
 }
 
-.nav-style:hover {
+.nav-style:hover, .style-card:hover p {
   color: #DF9841 !important;
 }
 
@@ -55,10 +54,6 @@ body {
 
 .style-card:hover .title-color {
   color: #FFF;
-}
-
-.style-card:hover p {
-  color: #DF9841;
 }
 
 .style-card:hover .button-style {
@@ -128,12 +123,30 @@ body {
   background: #32335A;
 }
 
-.contact-color {
+.contact-color, .check-style {
   color: #32335A !important;
 }
 
 .contact-color:hover {
   color: #DF9841  !important;
+}
+
+.hover {
+  color: #DF9841 !important;
+}
+
+.form-check-input:checked[type=checkbox] {
+  background-color: #DF9841;
+  border: none;
+}
+
+.check-button {
+  background: #32335A;
+  color: #FFF;
+}
+
+.color-icon {
+  color: #DF9841;
 }
 
 @media (max-width: 1200px) {
@@ -152,6 +165,15 @@ body {
   .logo-style {
     width: 6rem !important;
   }
+
+  .nav-background {
+    background: #32335A !important;
+  }
+  
+  .hamburger {
+    color: #32335A;
+  }
+  
 }
 
 @media (max-width: 768px) {
