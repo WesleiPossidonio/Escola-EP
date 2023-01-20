@@ -192,6 +192,9 @@ body {
   stroke: #DF9841 !important;
 }
 
+.list-unstyled li a:hover, .widget a:hover {
+  color: #DF9841 !important;
+}
 
 @media (max-width: 1200px) {
   html {
