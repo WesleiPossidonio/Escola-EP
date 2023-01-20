@@ -179,7 +179,7 @@ body {
   background: #DF9841 !important;
 }
 
-.btn-color, .btn-color:active {
+.btn-color, .btn-color:active, .btn-color:hover {
   background: #DF9841 !important;
   border-color: #DF9841;
 }
