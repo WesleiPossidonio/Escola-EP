@@ -1,13 +1,12 @@
-
 body {
   font-family: 'Open Sans', sans-serif !important;
 }
 
-.container-2  {
+.container-2 {
   --bs-gutter-x: 5.5rem !important;
 }
 
-.nav-style{
+.nav-style {
   color: #32335A;
   font-weight: 700;
 }
@@ -27,7 +26,8 @@ body {
 }
 
 
-.nav-style:hover, .style-card:hover p {
+.nav-style:hover,
+.style-card:hover p {
   color: #DF9841 !important;
 }
 
@@ -65,10 +65,10 @@ body {
 }
 
 .style-card:hover {
-    transform: translateY(-5px);
-    transform: scale(1.1);
-    transition: all 0.5s;
-    background-color: #32335A;
+  transform: translateY(-5px);
+  transform: scale(1.1);
+  transition: all 0.5s;
+  background-color: #32335A;
 }
 
 .style-card:hover .title-color {
@@ -80,7 +80,7 @@ body {
   background: #fff !important;
 }
 
-.style-card:hover .button-style a{
+.style-card:hover .button-style a {
   color: #32335A !important;
 }
 
@@ -118,11 +118,13 @@ body {
 
 .btn-style:hover {
   background: #FFF !important;
-  
+  transform: translateY(-5px);
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .btn-style:hover a {
-  color: #000;
+  color: #32335A !important;
 }
 
 .style-icon {
@@ -142,12 +144,13 @@ body {
   background: #32335A;
 }
 
-.contact-color, .check-style {
+.contact-color,
+.check-style {
   color: #32335A !important;
 }
 
 .contact-color:hover {
-  color: #DF9841  !important;
+  color: #DF9841 !important;
 }
 
 .hover {
@@ -192,7 +195,7 @@ body {
   .nav-background {
     background: #32335A !important;
   }
-  
+
   .hamburger {
     color: #32335A;
   }
@@ -200,11 +203,11 @@ body {
   .nav-style::after {
     display: none;
   }
-  
+
   .nav-style:hover::after {
     display: none;
   }
-  
+
 }
 
 @media (max-width: 768px) {
@@ -213,6 +216,7 @@ body {
     background-image: url("../img-escolaEP/banner-m.jpg") !important;
     background-repeat: no-repeat;
   }
+
   .container-img {
     max-width: 20rem;
     height: 15.6rem;
@@ -222,14 +226,14 @@ body {
     max-width: 20rem;
     height: 15.6rem;
   }
-  
+
   .container-style {
     display: flex !important;
     flex-direction: column !important;
   }
 
   .style-diretora {
-    max-width: 22rem ;
+    max-width: 22rem;
   }
 
   .row-style {
@@ -237,13 +241,13 @@ body {
   }
 
   .underline {
-    white-space:normal;
+    white-space: normal;
   }
 
   .nav-background {
     background: #32335A !important;
   }
-  
+
   .hamburger {
     color: #32335A;
   }
@@ -251,7 +255,7 @@ body {
   .nav-style::after {
     display: none;
   }
-  
+
   .nav-style:hover::after {
     display: none;
   }
@@ -272,6 +276,6 @@ body {
 
   .style-diretora {
     max-width: 18rem;
-}
+  }
 
 }
