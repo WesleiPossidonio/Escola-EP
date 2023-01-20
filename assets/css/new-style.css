@@ -209,6 +209,14 @@ body {
   .underline {
     white-space:normal;
   }
+
+  .nav-background {
+    background: #32335A !important;
+  }
+  
+  .hamburger {
+    color: #32335A;
+  }
 }
 
 
