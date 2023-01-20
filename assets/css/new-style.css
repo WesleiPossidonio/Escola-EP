@@ -12,6 +12,21 @@ body {
   font-weight: 700;
 }
 
+.nav-style::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  margin-top: 5px;
+  display: block;
+  background: #DF9841;
+  transition: 400ms;
+}
+
+.nav-style:hover::after {
+  width: 100%;
+}
+
+
 .nav-style:hover, .style-card:hover p {
   color: #DF9841 !important;
 }
@@ -181,6 +196,14 @@ body {
   .hamburger {
     color: #32335A;
   }
+
+  .nav-style::after {
+    display: none;
+  }
+  
+  .nav-style:hover::after {
+    display: none;
+  }
   
 }
 
@@ -223,6 +246,14 @@ body {
   
   .hamburger {
     color: #32335A;
+  }
+
+  .nav-style::after {
+    display: none;
+  }
+  
+  .nav-style:hover::after {
+    display: none;
   }
 }
 
