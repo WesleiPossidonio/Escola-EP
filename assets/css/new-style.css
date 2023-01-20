@@ -175,6 +175,24 @@ body {
   margin-left: -0.5rem !important;
 }
 
+.btn-primary.btn-circle.ripple::after, .btn-primary.btn-circle.ripple::before {
+  background: #DF9841 !important;
+}
+
+.btn-color, .btn-color:active {
+  background: #DF9841 !important;
+  border-color: #DF9841;
+}
+
+.progress-wrap:after{
+  color: #DF9841 !important;
+}
+
+.progress-wrap svg.progress-circle path {
+  stroke: #DF9841 !important;
+}
+
+
 @media (max-width: 1200px) {
   html {
     font-size: 97.75% !important;
