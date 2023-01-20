@@ -3,6 +3,10 @@ body {
   font-family: 'Open Sans', sans-serif !important;
 }
 
+.container-2  {
+  --bs-gutter-x: 5.5rem !important;
+}
+
 .nav-style{
   color: #32335A;
   font-weight: 700;
@@ -149,6 +153,10 @@ body {
   color: #DF9841;
 }
 
+.btn-hamburger {
+  margin-left: -0.5rem !important;
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 97.75% !important;
@@ -185,7 +193,6 @@ body {
   .container-img {
     max-width: 20rem;
     height: 15.6rem;
-
   }
 
   .container-img img {
